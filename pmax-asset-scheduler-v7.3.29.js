@@ -20,10 +20,10 @@
 /*** ===================== KONFIG ===================== ***/
 
 // Kötelező: Google Sheet URL
-const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/1XqJQU1CbY4vfeqTyr-XQt6dlLm4yb_cYdC134Ikez68/edit?gid=1489972025#gid=1489972025';
+const SPREADSHEET_URL = 'your-sheet-url';
 
 // Kötelező: Értesítési e-mail(ek), vesszővel elválasztva
-const NOTIFICATION_EMAIL = 'ppc2@socialwings.hu';
+const NOTIFICATION_EMAIL = 'your-email';
 
 // Lapnevek
 const TEXT_SHEET_NAME = 'TextAssets';
@@ -3051,3 +3051,4 @@ function escapeHtml(s) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
+
