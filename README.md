@@ -100,13 +100,17 @@ Az alapértelmezett végrehajtási időablakok (a konfig szekcióban módosítha
 
 ---
 
-## Licensz
+⚠️ FONTOS: Ha asset cserét szeretnél, és az asset típusból a maximális elemszám már megvan az elemcsoportban (REMOVE + ADD ugyanolyan típusból), 
+akkor legalább 1 órával a hozzáadás elé időzítsd a törlés műveletet! 
 
-© 2025 Klára Bognár – All rights reserved.
+Jó példa: REMOVE 9:00, ADD 10:00
+Rossz példa: REMOVE 10:00, ADD 10:00 (ugyanaz az óra)
 
----
+A magyrázat, hogy a végrehajtás órájában is lefut egy elővalidáció, ami kizárja a végrehajtásból a max. elemszámok fölötti műveleteket.
+
 
 ## Kapcsolat
 
 **Impresszió Online Marketing**
 🌐 [impresszio.hu](https://impresszio.hu)
+
