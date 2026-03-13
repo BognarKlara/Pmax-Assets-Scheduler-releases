@@ -45,6 +45,8 @@ Automatikusan hozzáad és eltávolít szöveges, kép és videó asset-eket az 
 
 ### 1. Google Sheet létrehozása
 
+> ⚠️ **Frissítés régebbi verzióról?** Készíts új sheetet az alábbi sablonból (ne a régit módosítsd), és a meglévő `Results` fület töröld a sheetből — az oszlopszerkezet megváltozott.
+
 Másold le a sablon sheet-et:
 **[Sablon Sheet Másolása](https://docs.google.com/spreadsheets/d/14cWq7Ly8XHIkcUkIhYHeIwhwEb3w5Qjl8npcf6SwaiI/copy)**
 
