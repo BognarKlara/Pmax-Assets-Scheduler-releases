@@ -37,7 +37,7 @@ Automatikusan hozzáad és eltávolít szöveges, kép és videó asset-eket az 
 - **Post-execution preview**: Execution után friss állapot alapján újravalidál és frissíti a preview sheet-et
 - **Email értesítések**: Preview és Execution riportok
 - **Post-verification**: Műveletek sikeres végrehajtásának ellenőrzése
-- **Kép és videó linkek**: Kattintható thumbnail-ek a bemeneti sheet-eken; szöveges linkek a riport sheet-eken és az emailben
+- **Kép és videó linkek**: Kattintható thumbnail-ek a bemeneti sheet-eken (ImageAssets, VideoAssets); képeknél szöveges link a riport sheet-eken és az emailben is — videóknál csak a bemeneti sheet-en kattintható
 
 ---
 
@@ -242,8 +242,7 @@ A riport sheet-ekben szöveges linkek jelennek meg:
 | Campaign | Nincs link — csak szöveg |
 | Asset Group | Nincs link — csak szöveg |
 | Asset ID (IMAGE) | 🖼️ Kattintható szöveges link → kép megnyílik böngészőben |
-| Video (VIDEO_ID formátum) | ▶️ Kattintható szöveges link → YouTube videó |
-| Video (Asset ID formátum) | Nincs link — csak szöveg (ld. korlátozások) |
+| Video | Nincs link — csak szöveg |
 
 ### Email Értesítések
 
@@ -252,8 +251,7 @@ Az emailben szöveges linkek szerepelnek (nem thumbnail képek — azok email kl
 | Asset típus | Email tartalom |
 |-------------|---------------|
 | IMAGE | 🖼️ `assetId` — kattintható link a kép teljes méretű verziójára |
-| VIDEO (YouTube URL/ID) | ▶️ `videoId` — kattintható YouTube link |
-| VIDEO (Asset ID) | `Asset ID: 123...` — szöveg, link nélkül |
+| VIDEO | Szöveg, link nélkül |
 | TEXT | Szöveg — link nélkül |
 
 ### Hibakezelés
