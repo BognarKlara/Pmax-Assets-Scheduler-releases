@@ -46,7 +46,7 @@ Automatikusan hozzáad és eltávolít szöveges, kép és videó asset-eket az 
 ### 1. Google Sheet létrehozása
 
 Másold le a sablon sheet-et:
-**[Sablon Sheet Másolása](https://docs.google.com/spreadsheets/d/1HHWrSD8pCP87u63bDfFBDyqKIFwUh3tX-qpfXmME_hs/copy)**
+**[Sablon Sheet Másolása](https://docs.google.com/spreadsheets/d/14cWq7Ly8XHIkcUkIhYHeIwhwEb3w5Qjl8npcf6SwaiI/copy)**
 
 ### 2. Script hozzáadása
 
