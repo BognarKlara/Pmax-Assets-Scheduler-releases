@@ -296,6 +296,8 @@ A link létrehozás **nem befolyásolja** a script működését:
 
 ## Limitek
 
+> **Megjegyzés:** A limitek ellenőrzésekor a script csak a te által hozzáadott asset-eket számolja (`source = ADVERTISER`). A Google által automatikusan hozzáadott asset-ek nem számítanak bele a limitbe.
+
 ### Szöveges asset-ek (per asset group)
 
 | Típus | Minimum | Maximum |
